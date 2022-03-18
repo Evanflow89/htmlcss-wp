@@ -47,10 +47,12 @@ nav ul li a:hover {
     margin-bottom: 30px;
 }
 
-.imageCont {
-min-height: 400px;
-width: 100%;
-background-color: rgb(225, 214, 122);
+.hero {
+border-radius: 10px;
+min-height: 460px;
+width: 100%x;
+background-image: url(../img/banner.jpg);
+background-position: center center;
 margin-bottom: 30px;
 }
 
