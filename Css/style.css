@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: 'Montserrat', sans-serif;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
@@ -15,10 +19,30 @@
     width: 1200px;
 }
 
+nav ul li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8A8A8A;
+}
+
+nav ul li {
+    list-style: none;
+    float: left;
+    padding: 25px 5px;
+}
+
+nav ul li a:hover {
+    color: red;
+}
+
+#logo {
+    width: calc(326px / 2);
+    height: calc(138px / 2);
+}
+
 .head {
     min-height: 120px;
     width: 100%;
-    background-color: rgb(229, 121, 230);
     margin-top: 20px;
     margin-bottom: 30px;
 }
