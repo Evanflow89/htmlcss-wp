@@ -54,7 +54,21 @@ width: 100%x;
 background-image: url(../img/banner.jpg);
 background-position: center center;
 margin-bottom: 30px;
+filter: brightness(80%);
+position: relative;
 }
+
+.content-hero {
+    position: absolute;
+    bottom: 60px;
+    left: 50px;
+}
+
+.content-hero h2 {
+    font-weight: 400;
+    font-size: 30px;
+}
+
 
 .layout {
     min-height: 400px;
